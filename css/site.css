@@ -1,0 +1,26 @@
+
+.top{position:sticky;top:0;z-index:9;background:var(--notte);border-bottom:1px solid rgba(184,149,106,.35)}
+.top .wrap{display:flex;justify-content:space-between;align-items:center;padding-top:1rem;padding-bottom:1rem}
+.top nav a,footer a{margin-left:1.6rem;font:500 .68rem var(--sans);letter-spacing:.2em;text-transform:uppercase;text-decoration:none;color:var(--avorio)}
+.top nav a:hover,.top nav a[aria-current]{color:var(--ottone)}
+footer a{display:block;margin:.5rem 0}footer .eyebrow{margin-bottom:.6rem}.pic{font-size:.78rem;color:var(--nebbia);margin-top:.8rem}
+.hero{padding:clamp(3rem,8vw,6rem) 0}.hero h1{color:var(--avorio)}.hero em{color:var(--acqua)}.sub{color:var(--nebbia);max-width:30rem;margin:1.2rem 0 2rem}.scuro .sub{color:var(--nebbia)}
+.sub2{max-width:34rem;margin-bottom:2rem}.cta{margin-top:1.6rem;display:flex;gap:1rem;flex-wrap:wrap}.centro{text-align:center}.centro .sub{margin:1rem auto 0}
+.h1s{font-size:clamp(2rem,4.5vw,3.4rem)}.titolo{margin-bottom:2.4rem}.top0{align-items:start}
+.fiducia{list-style:none;display:flex;gap:1rem 2.5rem;justify-content:center;flex-wrap:wrap;padding:1.6rem var(--gap);font:500 .68rem var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--ottone)}
+.fiducia.v{flex-direction:column;gap:.5rem;padding:1rem 0;justify-content:flex-start}
+.badge{display:inline-block;padding:.35rem .8rem;font:500 .62rem var(--sans);letter-spacing:.18em;text-transform:uppercase;background:var(--avorio);color:var(--notte)}
+.cornice{position:relative}.cornice .badge{position:absolute;top:.8rem;left:.8rem;z-index:2}
+.badge.sv{background:var(--ottone)}.badge.nv{background:var(--notte);color:var(--avorio);border:1px solid var(--acqua)}.badge.vd{background:var(--nebbia)}
+a.opera{text-decoration:none}.tabs{display:flex;gap:.6rem;flex-wrap:wrap;margin:1.6rem 0 2.4rem}
+.tabs button{background:none;border:1px solid var(--ottone);color:var(--notte);padding:.7rem 1.4rem;font:500 .68rem var(--sans);letter-spacing:.2em;text-transform:uppercase;cursor:pointer}
+.tabs button.on,.tabs button:hover{background:var(--notte);color:var(--ottone)}
+.vuoto,.nota{grid-column:1/-1;margin-top:1.5rem;font-style:italic}.prezzo{font:400 1.6rem var(--serif);margin:1rem 0}.meta{color:#4d5b58}
+.passi{list-style:none;padding:0}.passi b{font:400 2.2rem var(--serif);color:var(--ottone)}.passi p{margin-top:.5rem;font-size:.92rem}
+.video{aspect-ratio:16/9;border:1px solid var(--ottone);background:rgba(184,149,106,.08)}blockquote{font:italic 1.5rem/1.5 var(--serif);max-width:40rem;margin:0 auto}
+.faq details{border-top:1px solid var(--ottone);padding:1.1rem 0}.faq summary{cursor:pointer;font:400 1.15rem var(--serif)}.faq p{margin-top:.6rem}.timeline{list-style:none}.timeline li{padding:.8rem 0;border-top:1px solid var(--nebbia)}
+.modulo,#news form{display:grid;gap:.9rem}#news form{max-width:30rem;margin:1.6rem auto 0;grid-template-columns:1fr auto}#news form .ok{grid-column:1/-1}
+input,select,textarea{width:100%;padding:.95rem 1.1rem;background:transparent;border:1px solid var(--acqua);color:inherit;font:300 .9rem var(--sans)}
+.scuro input{color:var(--avorio)}.ok{font-size:.78rem;display:flex;gap:.5rem;align-items:center}.ok input{width:auto}
+[hidden]{display:none!important}
+@media(max-width:820px){.top nav a{margin-left:.8rem;font-size:.58rem}#news form{grid-template-columns:1fr}}
